@@ -1,4 +1,24 @@
 class Alice:
+    """
+        The Alice class is used to interact with the letterbox and letter classes.
+        ...
+
+        Attributes
+        ----------
+        has_letter : bool
+            status of letter inventory
+
+        Methods
+        -------
+        writes_letter(self, letter):
+            Writes a letter
+        reads_letter(self, letter):
+            Reads a letter
+        checks_letterbox(self, letterbox):
+            Checks the letterbox and collects the letter
+        delivers_letter(self, letterbox):
+            Delivers a letter to the letterbox
+    """
 
     def __init__(self):
         self.has_letter = False
